@@ -1,0 +1,9 @@
+{
+  "name": "eslint-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {}
+}
