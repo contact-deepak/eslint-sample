@@ -1,9 +1,11 @@
 {
   "name": "eslint-sample",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint ."
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^9.9.1"
+  }
 }
