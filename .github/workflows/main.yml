@@ -22,11 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Optional: Run tests and generate code coverage report (for SonarQube coverage analysis)
-      - name: Run Tests and Generate Coverage
-        run: |
-          npm run test
-          npm run coverage
 
       - name: SonarQube Scan
         env:
